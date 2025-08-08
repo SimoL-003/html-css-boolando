@@ -1,1 +1,60 @@
 @import url(./utilities.css);
+@import url(./typography.css);
+
+/* VARIABLES */
+:root {
+    /* BACKGROUND */
+    --bg-orange: rgb(249, 105, 28);
+    --bg-black: rgb(26, 26, 26);
+
+    /* SPACING */
+    --header-height: 5rem;
+}
+
+/* GENERAL */
+/* Layout */
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto
+}
+
+.flex {
+    display: flex;
+}
+
+/* HEADER */
+.header {
+    height: var(--header-height);
+    background-color: var(--bg-orange);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.header ul {
+    width: 30%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.header ul a:hover {
+    text-decoration: underline;
+}
+
+.header a.logo {
+    width: 40%;
+}
+
+.header img.logo {
+    display: inline;
+    width: 8.5rem;
+}
+
+.header .icons {
+    width: 30%;
+    color: #fff;
+}

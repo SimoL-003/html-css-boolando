@@ -1,0 +1,25 @@
+/* POSITIONING */
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.vertical-align-middle {
+    vertical-align: middle;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* SPACING */
+.gap-3 {
+    gap: 0.75rem;
+}
