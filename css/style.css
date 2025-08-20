@@ -1,9 +1,11 @@
 @import url(./utilities.css);
-@import url(./typography.css);
 
 /* VARIABLES */
 :root {
-    /* BACKGROUND */
+    /* COLORS */
+    --red: rgb(234, 51, 35);
+    --green: rgb(0, 118, 26);
+
     --bg-orange: rgb(249, 105, 28);
     --bg-black: rgb(26, 26, 26);
 
@@ -57,4 +59,55 @@
 .header .icons {
     width: 30%;
     color: #fff;
+}
+
+/* MAIN */
+
+main section:first-child {
+    margin-top: var(--header-height);
+}
+
+.gallery .card {
+    width: 32%;
+}
+
+.gallery img.hover {
+    display: none;
+}
+
+.gallery .card:hover img.hover {
+    display: block;
+}
+
+.gallery .card:hover img.default {
+    display: none;
+}
+
+.gallery .brand,
+.gallery .price {
+    font-size: 0.75rem;
+}
+
+.gallery .item {
+    font-size: 0.875rem;
+}
+
+.gallery .brand {
+    font-weight: 100;
+}
+
+.gallery .label {
+    top: 410px;
+    left: 0;
+}
+
+.gallery .label strong {
+    font-size: 0.625rem;
+    padding: 5px 10px;
+}
+
+.gallery .hearth {
+    top: 60px;
+    right: 0;
+    padding: 10px 25px 10px 11px;
 }

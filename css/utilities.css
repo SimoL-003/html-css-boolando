@@ -1,3 +1,12 @@
+/* POSITION */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 /* POSITIONING */
 .text-center {
     text-align: center;
@@ -19,7 +28,48 @@
     align-items: center;
 }
 
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
 /* SPACING */
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
 .gap-3 {
     gap: 0.75rem;
+}
+
+/* TEXT */
+.white {
+    color: rgb(255, 255, 255);
+}
+
+.red {
+    color: var(--red);
+}
+
+.bg-red {
+    background-color: var(--red);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.bg-white {
+    background-color: rgb(255, 255, 255);
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
