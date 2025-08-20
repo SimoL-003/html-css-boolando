@@ -111,3 +111,33 @@ main section:first-child {
     right: 0;
     padding: 10px 25px 10px 11px;
 }
+
+/* /MAIN */
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(26, 26, 26);
+    color: #fff;
+}
+
+.footer .info h5 {
+    font-size: 1rem;
+}
+
+.footer .info ul {
+    font-size: 0.75rem;
+}
+
+.footer .info a:hover {
+    text-decoration: underline;
+}
+
+.footer .social h6 {
+    font-size: 0.75rem;
+
+}
+
+.footer .social ul {
+    font-size: 1.25rem;
+}
