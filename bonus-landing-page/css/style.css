@@ -4,5 +4,19 @@
     /* COLORS */
     --blue: #2e45cc;
     --green: #04df6c;
-    --black: #3d3a38
+    --black: #3d3a38;
+}
+
+/* HEADER */
+
+.header {
+    height: 100px;
+}
+
+.header .menu a:hover {
+    text-decoration: underline;
+}
+
+.header .current-page {
+    color: rgb(51, 68, 196);
 }

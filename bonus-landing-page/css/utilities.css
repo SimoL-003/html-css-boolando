@@ -1,0 +1,43 @@
+/* LAYOUT & DISPLAY */
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* SPACING */
+
+.gap-12 {
+    gap: 3rem;
+}
+
+.py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* DIMENSIONS */
+
+.h-full {
+    height: 100%;
+}
+
+/* COLORS & BACKGROUND */
+
+/* TEXT */
+.text-sm {
+    font-size: 0.875rem;
+    /* 14px */
+}
