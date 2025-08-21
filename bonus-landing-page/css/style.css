@@ -20,3 +20,43 @@
 .header .current-page {
     color: rgb(51, 68, 196);
 }
+
+.hero {
+    height: 540px;
+}
+
+.hero img {
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.hero-text {
+    background-image: url(../img/banner-bg.png);
+}
+
+.hero-text h1 {
+    font-size: 5.25rem;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.hero-text p {
+    padding: 2rem 3rem;
+    font-size: 1.125rem;
+    letter-spacing: 0.5px;
+}
+
+.hero-text .btn {
+    display: inline-block;
+    border: 1px solid var(--black);
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 1.125rem;
+}
+
+.hero-text .btn:hover {
+    color: #fff;
+    background-color: var(--black);
+}
