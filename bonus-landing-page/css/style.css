@@ -1,4 +1,5 @@
 @import url(./utilities.css);
+@import url(./typography.css);
 
 :root {
     /* COLORS */
@@ -21,6 +22,9 @@
     color: rgb(51, 68, 196);
 }
 
+/* /HEADER */
+
+/* HERO */
 .hero {
     height: 540px;
 }
@@ -35,14 +39,14 @@
 }
 
 .hero-text h1 {
-    font-size: 5.25rem;
-    line-height: 1;
+    font-size: 4.5rem;
     font-weight: 500;
+    line-height: 1;
     letter-spacing: 0.5px;
 }
 
 .hero-text p {
-    padding: 2rem 3rem;
+    padding: 2.5rem 3rem;
     font-size: 1.125rem;
     letter-spacing: 0.5px;
 }
@@ -54,9 +58,34 @@
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-size: 1.125rem;
+    font-weight: 500;
 }
 
 .hero-text .btn:hover {
     color: #fff;
     background-color: var(--black);
 }
+
+/* /HERO */
+
+/* FEATURES */
+.features .text-col > div {
+    padding-bottom: 2.5rem;
+}
+
+.features .text-col > div:last-child {
+    padding-bottom: 0;
+}
+
+.features .text-col h2 {
+    font-weight: 500;
+    padding: 0 1.25rem;
+}
+
+.features .text-col p {
+    padding-top: 0.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+/* /FEATURES */
