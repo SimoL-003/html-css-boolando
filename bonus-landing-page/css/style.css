@@ -38,13 +38,6 @@
     background-image: url(../img/banner-bg.png);
 }
 
-.hero-text h1 {
-    font-size: 4.5rem;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: 0.5px;
-}
-
 .hero-text p {
     padding: 2.5rem 3rem;
     font-size: 1.125rem;
@@ -77,11 +70,6 @@
     padding-bottom: 0;
 }
 
-.features .text-col h2 {
-    font-weight: 500;
-    padding: 0 1.25rem;
-}
-
 .features .text-col p {
     padding-top: 0.25rem;
     padding-left: 1.25rem;
@@ -91,18 +79,11 @@
 /* /FEATURES */
 
 /* REVIEWS */
-.reviews h1 {
-    font-size: 3.25rem;
-    font-weight: 600;
-    padding-bottom: 2rem;
-}
-
 .review > div {
     padding: 0 2.75rem;
 }
 
 .reviews i {
-    color: rgb(246, 195, 68);
     padding: 1rem 0;
 }
 
@@ -111,3 +92,10 @@
 }
 
 /* /REVIEWS */
+
+/* COLLECTION */
+.collection .price {
+    color: var(--green);
+}
+
+/* /COLLECTION */

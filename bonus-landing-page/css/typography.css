@@ -16,3 +16,27 @@ body {
     /* line-height: 1.24; */
     color: var(--black);
 }
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-size: 3.25rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    font-weight: 500;
+    padding: 0 1.25rem;
+}
+
+.yellow-star {
+    color: rgb(246, 195, 68);
+    font-size: 0.75rem;
+}
