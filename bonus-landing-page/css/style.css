@@ -89,3 +89,25 @@
 }
 
 /* /FEATURES */
+
+/* REVIEWS */
+.reviews h1 {
+    font-size: 3.25rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.review > div {
+    padding: 0 2.75rem;
+}
+
+.reviews i {
+    color: rgb(246, 195, 68);
+    padding: 1rem 0;
+}
+
+.review p:last-child {
+    font-weight: 600;
+}
+
+/* /REVIEWS */
