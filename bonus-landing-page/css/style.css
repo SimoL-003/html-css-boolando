@@ -1,0 +1,8 @@
+@import url(./utilities.css);
+
+:root {
+    /* COLORS */
+    --blue: #2e45cc;
+    --green: #04df6c;
+    --black: #3d3a38
+}
