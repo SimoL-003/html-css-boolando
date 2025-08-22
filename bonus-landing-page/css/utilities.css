@@ -4,6 +4,10 @@
     object-fit: contain;
 }
 
+.object-fit-cover {
+    object-fit: cover;
+}
+
 .container {
     width: 85%;
     margin: 0 auto;
@@ -51,6 +55,11 @@
 .py-13 {
     padding-top: 3.25rem;
     padding-bottom: 3.25rem;
+}
+
+.px-5p {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .px-8 {

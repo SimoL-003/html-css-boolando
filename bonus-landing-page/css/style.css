@@ -30,8 +30,7 @@
 }
 
 .hero img {
-    object-fit: cover;
-    object-position: bottom;
+    object-position: center;
 }
 
 .hero-text {
@@ -87,7 +86,7 @@
     padding: 1rem 0;
 }
 
-.review p:last-child {
+.review p.author {
     font-weight: 600;
 }
 
@@ -96,6 +95,20 @@
 /* COLLECTION */
 .collection .price {
     color: var(--green);
+}
+
+.collection i {
+    padding-top: 1rem;
+}
+
+.collection h4 {
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
+.collection .price {
+    font-size: 1.75rem;
+    font-weight: 700;
 }
 
 /* /COLLECTION */
