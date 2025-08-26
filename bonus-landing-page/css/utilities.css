@@ -1,5 +1,4 @@
 /* LAYOUT & DISPLAY */
-
 .object-fit-contain {
     object-fit: contain;
 }
@@ -30,13 +29,20 @@
 }
 
 /* SPACING */
-
 .gap-12 {
     gap: 3rem;
 }
 
+.pt-4 {
+    padding-top: 1rem;
+}
+
 .pt-12 {
     padding-top: 3rem;
+}
+
+.pb-3 {
+    padding-bottom: 0.75rem;
 }
 
 .pb-4 {
@@ -57,14 +63,14 @@
     padding-bottom: 3.25rem;
 }
 
-.px-5p {
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
 .px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+.px-5p {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .px-22 {
@@ -73,6 +79,9 @@
 }
 
 /* DIMENSIONS */
+.w-1 {
+    width: 1rem;
+}
 
 .w-1-5 {
     width: 20%;
@@ -90,12 +99,15 @@
     width: 50%;
 }
 
+.h-1 {
+    height: 1rem;
+}
+
 .h-full {
     height: 100%;
 }
 
 /* COLORS & BACKGROUND */
-
 .bg-gray {
     background-color: rgb(248, 248, 248);
 }
