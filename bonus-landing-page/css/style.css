@@ -117,7 +117,6 @@
 /* /COLLECTION */
 
 /* FAQ */
-
 .faq img {
     align-self: flex-start;
 }
@@ -136,10 +135,24 @@
     line-height: 1.25;
     color: var(--black);
     font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 0.5rem;
 }
 
 .faq-text summary::marker {
-    content: "";
+    display: none;
+}
+
+.faq-text summary::after {
+    content: "+";
+    font-size: 1.5rem;
+}
+
+.faq-text details[open] summary::after {
+    content: "-";
 }
 
 .faq-text hr {
