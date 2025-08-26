@@ -63,7 +63,7 @@
 
 /* MAIN */
 
-main section:first-child {
+main {
     margin-top: var(--header-height);
 }
 
@@ -73,13 +73,14 @@ main section:first-child {
 
 .gallery img.hover {
     display: none;
+    /* N.B: Meglio usare z-indez in quanto con display:none l'immagine non viene vista dagli screen reader */
 }
 
-.gallery .card:hover img.hover {
+.gallery .card-image:hover img.hover {
     display: block;
 }
 
-.gallery .card:hover img.default {
+.gallery .card-image:hover img.default {
     display: none;
 }
 
@@ -110,6 +111,10 @@ main section:first-child {
     top: 60px;
     right: 0;
     padding: 10px 25px 10px 11px;
+}
+
+.gallery .hearth:hover {
+    color: #ff0000;
 }
 
 /* /MAIN */

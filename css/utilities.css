@@ -57,7 +57,7 @@
 
 /* TEXT */
 .white {
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
 .red {
@@ -73,7 +73,7 @@
 }
 
 .bg-white {
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
 }
 
 .line-through {
