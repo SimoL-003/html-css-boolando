@@ -113,6 +113,10 @@
 }
 
 /* COLORS & BACKGROUND */
+.blue {
+    color: var(--blue);
+}
+
 .bg-gray {
     background-color: rgb(248, 248, 248);
 }
@@ -121,4 +125,19 @@
 .text-sm {
     font-size: 0.875rem;
     /* 14px */
+}
+
+.icon-sm {
+    width: 1rem;
+    height: 1rem;
+}
+
+.icon-md {
+    width: 2rem;
+    height: 2rem;
+}
+
+.icon-lg {
+    width: 2rem;
+    height: 2rem;
 }

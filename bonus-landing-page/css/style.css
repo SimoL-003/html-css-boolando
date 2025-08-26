@@ -6,12 +6,15 @@
     --blue: #2e45cc;
     --green: #04df6c;
     --black: #3d3a38;
+
+    /* SPACING */
+    --header-height: 100px;
 }
 
 /* HEADER */
 
 .header {
-    height: 100px;
+    height: var(--header-height);
 }
 
 .header .menu a:hover {
@@ -26,7 +29,7 @@
 
 /* HERO */
 .hero {
-    height: 540px;
+    max-height: 590px;
 }
 
 .hero img {
@@ -153,3 +156,18 @@
 }
 
 /* /FAQ */
+
+/* WHYBUY */
+.whybuy .container > div {
+    border-right: #d3d3d3 solid 1px;
+}
+
+.whybuy .container > div:last-child {
+    border-right: 0;
+}
+
+.whybuy h3 {
+    font-weight: 600;
+}
+
+/* /WHYBUY */
